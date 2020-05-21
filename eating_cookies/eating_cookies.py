@@ -4,8 +4,10 @@ Returns: an integer
 '''
 def eating_cookies(n):
     # Your code here
+    return 2 ** (n-1) if n > 0 else 1
+        
 
-    pass
+    
 
 if __name__ == "__main__":
     # Use the main function here to test out your implementation
